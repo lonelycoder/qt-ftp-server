@@ -23,25 +23,9 @@ symbian:TARGET.CAPABILITY += NetworkServices
 # MOBILITY +=
 
 SOURCES += main.cpp mainwindow.cpp \
-    ftpserver.cpp \
-    ftpcontrolconnection.cpp \
-    sslserver.cpp \
-    ftpstorcommand.cpp \
-    ftpretrcommand.cpp \
-    ftplistcommand.cpp \
-    ftpcommand.cpp \
-    debuglogdialog.cpp \
-    dataconnection.cpp
+    debuglogdialog.cpp
 HEADERS += mainwindow.h \
-    ftpserver.h \
-    ftpcontrolconnection.h \
-    sslserver.h \
-    ftpstorcommand.h \
-    ftpretrcommand.h \
-    ftplistcommand.h \
-    ftpcommand.h \
-    debuglogdialog.h \
-    dataconnection.h
+    debuglogdialog.h
 FORMS += mainwindow.ui \
     debuglogdialog.ui
 QT += network
