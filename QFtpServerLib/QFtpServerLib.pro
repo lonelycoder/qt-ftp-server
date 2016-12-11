@@ -13,9 +13,9 @@ TEMPLATE = lib
 
 DEFINES += QFTPSERVERLIB_LIBRARY
 
-SOURCES += qftpserverlib.cpp
+SOURCES +=
 
-HEADERS += qftpserverlib.h\
+HEADERS +=\
         qftpserverlib_global.h
 
 unix {
