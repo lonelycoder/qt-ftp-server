@@ -1,2 +1,3 @@
 TEMPLATE = subdirs
-SUBDIRS += QFtpServer
+SUBDIRS += QFtpServer \
+    QFtpServerLib
